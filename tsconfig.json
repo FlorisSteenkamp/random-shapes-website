@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "charset": "utf8",
+        "strict": true,
+        "module": "es2022",
+        "target": "es2022",
+        "declaration": false,
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "allowUnreachableCode": true,
+        "jsx": "react"
+    },
+    "include": [
+        "./src/app.tsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
