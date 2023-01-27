@@ -11,8 +11,8 @@ const extensions = [
 
 module.exports = {
     entry: './src/run-app.tsx',
-    mode: "development",
-    // mode: "production",
+    // mode: "development",
+    mode: "production",
     //devtool: 'eval-source-map',
     module: {
         rules: [
